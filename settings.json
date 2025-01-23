@@ -201,5 +201,7 @@
     },
     "update.showReleaseNotes": false,
     "database-client.autoSync": true,
-    "workbench.externalBrowser": "chromium"
+    "workbench.externalBrowser": "chromium",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "jest.runMode": "on-demand"
 }
