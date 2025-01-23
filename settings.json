@@ -1,0 +1,205 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.3.100": "linux",
+        "homedev": "linux",
+        "192.168.3.200": "linux",
+        "dhomedev": "linux"
+    },
+    "pasteImage.path": "${currentFileDir}/${currentFileNameWithoutExt}",
+    "explorer.confirmDelete": false,
+    "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "i",
+                "<CR>",
+                "<ESC>"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<c-w>",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "R"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "U"
+            ],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+                "L"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToNextGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+                "x"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToNextGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+                "H"
+            ],
+            "commands": [
+                "workbench.action.moveEditorToPreviousGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-w>",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                "workbench.action.nextEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.previousEditorInGroup"
+            ]
+        }
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 5,
+    "workbench.tree.indent": 16,
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "http.proxy": "http://127.0.0.1:7890",
+    "git.autofetch": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "%"
+            ]
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
+    "codeium.enableConfig": {
+        "*": true,
+        "markdown": true
+    },
+    "editor.renderLineHighlight": "all",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#ffffff0e"
+    },
+    "codeium.detectProxy": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.showReleaseNotes": false,
+    "database-client.autoSync": true,
+    "workbench.externalBrowser": "chromium"
+}
