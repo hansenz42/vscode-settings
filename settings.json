@@ -1,9 +1,5 @@
 {
     "remote.SSH.remotePlatform": {
-        "192.168.3.100": "linux",
-        "homedev": "linux",
-        "192.168.3.200": "linux",
-        "dhomedev": "linux"
     },
     "pasteImage.path": "${currentFileDir}/${currentFileNameWithoutExt}",
     "explorer.confirmDelete": false,
@@ -15,6 +11,25 @@
     "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
     "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "u"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
         {
             "before": [
                 "K"
@@ -203,5 +218,11 @@
     "database-client.autoSync": true,
     "workbench.externalBrowser": "chromium",
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "jest.runMode": "on-demand"
+    "jest.runMode": "on-demand",
+    "terminal.integrated.inheritEnv": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "windsurf.cascadeWebSearchDisabled": false
 }
