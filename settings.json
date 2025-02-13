@@ -1,5 +1,9 @@
 {
     "remote.SSH.remotePlatform": {
+        "192.168.3.100": "linux",
+        "homedev": "linux",
+        "192.168.3.200": "linux",
+        "dhomedev": "linux"
     },
     "pasteImage.path": "${currentFileDir}/${currentFileNameWithoutExt}",
     "explorer.confirmDelete": false,
@@ -11,6 +15,14 @@
     "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
     "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "s"
+            ],
+            "commands": [
+                "extension.aceJump.multiChar"
+            ]
+        },
         {
             "before": [
                 "<leader>",
